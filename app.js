@@ -8,6 +8,8 @@ const app = express();
 
 // Set up mongoose connection
 const mongoose = require('mongoose');
+//let dev_db_url = 'mongodb://52.167.5.214:27017/productstutorial';
+
 let dev_db_url = 'mongodb://127.0.0.1:27017/productstutorial';
 //'mongodb://someuser:abcd1234@ds123619.mlab.com:23619/productstutorial' myapp;
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
